@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5314611220949876778
+--- !u!114 &-2954600219662688548
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: depth_mat
-  m_Shader: {fileID: -6465566751694194690, guid: c7e3bd24f51c27f48aa3af28db9ca6c3, type: 3}
+  m_Name: waves_mat
+  m_Shader: {fileID: -6465566751694194690, guid: 2481249ff02e2404c8f6f3e51d5032b0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -30,8 +30,7 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -52,20 +51,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _CastShadows: 1
-    - _Cull: 0
-    - _DstBlend: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _ZTest: 7
-    - _ZWrite: 1
-    - _ZWriteControl: 0
-    m_Colors:
-    - _Base_color: {r: 0.21065024, g: 0.5999999, b: 0.11660365, a: 0.67058825}
+    - _strength: 0
+    - _wavespeed: 0
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
